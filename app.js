@@ -15,6 +15,7 @@ const users = require('./routes/users')
 onerror(app)
 
 const robot = new Wechat();
+robot.start()
 
 
 
