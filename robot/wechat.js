@@ -6,7 +6,7 @@ class WeChatRobot {
         this.name = name;
         this.robot = Wechaty.instance();
         this.robot.on('scan', this.scan);
-        this.robot.on('login', this.logins);
+        this.robot.on('login', this.login);
         this.robot.on('message', this.message)
     };
     scan(qrcode, status) {
